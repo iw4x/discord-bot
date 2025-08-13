@@ -40,7 +40,7 @@ async function updateActivity() {
     try {
         const playerCount = await getPlayerCount();
         client.user.setPresence({
-            status: 'idle',
+            status: 'idle', // eepy bot is cute
             activities: [{
                 name: `IW4x with ${playerCount} players`,
                 type: ActivityType.Playing
@@ -48,13 +48,6 @@ async function updateActivity() {
         });
     } catch (error) {
         console.error('Error updating activity:', error);
-        client.user.setPresence({
-            status: 'idle',
-            activities: [{
-                name: 'IW4x Server',
-                type: ActivityType.Playing
-            }]
-        });
     }
 }
 
