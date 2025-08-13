@@ -1,0 +1,10 @@
+{
+  "token": "BOT_TOKEN",
+  "logChannelId": "LOG_CHANNEL_ID",
+  "allowedGuildId": "GUILD_ID",
+  "staffRoleId": "STAFF_ROLE_ID",
+  "protocol": 152,
+  "excludedChannels": [],
+  "rateLimit": 3,
+  "rateLimitWindow": 15000
+}
