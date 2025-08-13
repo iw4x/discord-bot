@@ -1,8 +1,11 @@
 [
     {
-        "commands": ["!help", "!commands"],
+        "commands": [
+            "!help",
+            "!commands"
+        ],
         "title": "Available commands",
-        "description": "- `!help`, `!commands` - Show this dialog \n- `!directx`, `!dx` - Installing DirectX\n- `!console` - Opening the console\n- `!install` - Installing IW4x\n- `!docs`, `!documentation` - IW4x documentation\n- `!github`, `!source` - IW4x source code\n- `!username`, `!nickname`, `!name` - How to change your ingame name\n- `!unlockall`, `!unlockstats`, `!unlock` - - Unlocking everything in the game\n\nFor more information about IW4x, please visit the official documentation at <https://docs.iw4x.dev/>."
+        "description": "- `!help`, `!commands` - Show this dialog \n- `!directx`, `!dx` - Installing DirectX\n- `!console` - Opening the console\n- `!install` - Installing IW4x\n- `!docs`, `!documentation` - IW4x documentation\n- `!github`, `!source` - IW4x source code\n- `!username`, `!nickname`, `!name` - How to change your ingame name\n- `!unlockall`, `!unlockstats`, `!unlock` - Unlocking everything in the game\n- `!discord`, `!dc`, `!invite` - Get the invite link for this server \n\nFor more information about IW4x, please visit the official documentation at <https://docs.iw4x.dev/>."
     },
     {
         "commands": [
@@ -13,33 +16,60 @@
         "description": "Errors related to `d3d9.dll` or `xinput1_3.dll` stem from a missing or broken DirectX installation.\n\n1. Please make sure you haven't downloaded any of these dll files from the internet, if you did **please delete them**.\n2. Download DirectX from Microsoft\n  - <https://www.microsoft.com/en-us/download/details.aspx?id=35>\n3. Run `dxwebsetup.exe` by double clicking it\n4. Follow the installation wizard\n5. Try running the game again, if it's still showing the same error restart your PC.\n"
     },
     {
-        "commands": ["!console"],
+        "commands": [
+            "!console"
+        ],
         "title": "Opening the console",
         "description": "Depending on your keyboard layout the console is opened using either the `tilde ~`, ````grave accent ` ````  or `caret ^` key.\nTo open the full console hold `Shift` while pressing the console button.\n\nFind more details and commands on the IW4x documentation:\n<https://docs.iw4x.dev/guides/console/>"
     },
     {
-        "commands": ["!install"],
+        "commands": [
+            "!install"
+        ],
         "title": "Downloading and installing IW4x",
         "description": "Please follow the detailed instructions available here:\n- Windows: <https://docs.iw4x.dev/install/launcher/>\n- Linux: <https://docs.iw4x.dev/install/launcher-linux/>"
     },
     {
-        "commands": ["!docs", "!documentation"],
+        "commands": [
+            "!docs",
+            "!documentation"
+        ],
         "title": "IW4x documentation",
         "description": "The IW4x documentation including various tutorials and information is available at <https://docs.iw4x.dev/>."
     },
     {
-        "commands": ["!github", "!source"],
+        "commands": [
+            "!github",
+            "!source"
+        ],
         "title": "IW4x GitHub",
         "description": "The IW4x source code is available on GitHub: <https://github.com/iw4x>"
     },
     {
-        "commands": ["!username", "!nickname", "!name"],
+        "commands": [
+            "!username",
+            "!nickname",
+            "!name"
+        ],
         "title": "Changing your ingame name",
         "description": "On the main menu, select Barracks and then click your current name in the top right (this may be Unknown Solider).\nYou can move the cursor with the Arrow keys or just start writing to overwrite the existing text.\nPress Enter to confirm your new name.\n\nAlternatively you can change your name using the console with the name command (`name mynewname`). See the [console guide](https://docs.iw4x.dev/guides/console/) (!console) for more details.\n\n<https://docs.iw4x.dev/guides/namechange/>"
     },
     {
-        "commands": ["!unlockall", "!unlockstats", "!unlock"],
+        "commands": [
+            "!unlockall",
+            "!unlockstats",
+            "!unlock"
+        ],
         "title": "Unlocking everything in the game",
         "description": "On the main menu, select Barracks and then “Unlock stats”. You should now be max prestige, rank 70, with everything unlocked.\n\nAlternatively you can use the console command `unlockstats` to achieve the same result.  See the [console guide](https://docs.iw4x.dev/guides/console/) (!console) for more details.\n\n<https://docs.iw4x.dev/guides/unlockstats/>"
+    },
+    {
+        "commands": [
+            "!invite",
+            "!dc",
+            "!discord"
+        ],
+        "title": "Discord server invites",
+        "description": "<https://discord.gg/2ETE8engZM>\nor\n<https://iw4x.dev/discord>"
     }
 ]
