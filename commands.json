@@ -20,7 +20,7 @@
             "!console"
         ],
         "title": "Opening the console",
-        "description": "Depending on your keyboard layout the console is opened using either the `tilde ~`, ````grave accent ` ````  or `caret ^` key.\nTo open the full console hold `Shift` while pressing the console button.\n\nFind more details and commands on the IW4x documentation:\n<https://docs.iw4x.dev/guides/console/>"
+        "description": "Depending on your keyboard layout the console is opened using either the **tilde ~**, **grave accent `**  or **caret ^** key. The key should be located right under the **esc** key.\nTo open the full console hold **Shift** while pressing the console button.\n\nFind more details and commands on the IW4x documentation:\n<https://docs.iw4x.dev/guides/console/>"
     },
     {
         "commands": [
