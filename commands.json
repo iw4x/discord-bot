@@ -5,7 +5,7 @@
             "!commands"
         ],
         "title": "Available commands",
-        "description": "- `!help`, `!commands` - Show this dialog \n- `!directx`, `!dx` - Installing DirectX\n- `!console` - Opening the console\n- `!install` - Installing IW4x\n- `!docs`, `!documentation` - IW4x documentation\n- `!github`, `!source` - IW4x source code\n- `!username`, `!nickname`, `!name` - How to change your ingame name\n- `!unlockall`, `!unlockstats`, `!unlock` - Unlocking everything in the game\n- `!discord`, `!dc`, `!invite` - Get the invite link for this server \n- `!dxvk` - Enabling DXVK for better performance\n- `!performance` - Guide for improving the game's performance\n- `!fps`, `!maxfps`, `!com_maxfps` - Guide on how to set FPS limit\n- `!fov`, `!cg_fov` - Guide on changing your FoV\n\nFor more information about IW4x, please visit the official documentation at <https://docs.iw4x.dev/>."
+        "description": "- `!help`, `!commands` - Show this dialog \n- `!directx`, `!dx` - Installing DirectX\n- `!console` - Opening the console\n- `!install` - Installing IW4x\n- `!docs`, `!documentation` - IW4x documentation\n- `!github`, `!source` - IW4x source code\n- `!username`, `!nickname`, `!name` - How to change your ingame name\n- `!unlockall`, `!unlockstats`, `!unlock` - Unlocking everything in the game\n- `!discord`, `!dc`, `!invite` - Get the invite link for this server \n- `!dxvk` - Enabling DXVK for better performance\n- `!performance` - Guide for improving the game's performance\n- `!fps`, `!maxfps`, `!com_maxfps` - Guide on how to set FPS limit\n- `!fov`, `!cg_fov` - Guide on changing your FoV\n- `!vc`, `!vcredist` - Installing VC++ Redistributables\n- `!redist`, `!0xc000007b`, `!7b` - Installing DirectX and VC++ Redistributables (error 0xc000007b)\n\nFor more information about IW4x, please visit the official documentation at <https://docs.iw4x.dev/>."
     },
     {
         "commands": [
@@ -102,5 +102,21 @@
         ],
         "title": "Changing the Field of View (FoV)",
         "description": "You can change your FoV using the console command `cg_fov <value>` where `<value>` is the desired FoV. The default value is 65.\n\nSee `!console` or the [console guide](https://docs.iw4x.dev/guides/console/) for more details."
+    },
+    {
+        "commands": [
+            "!vc",
+            "!vcredist"
+        ],
+        "title": "Installing VC++ Redistributable 2005",
+        "description": "You can find the VC++ Redistributable 2005 installer in the `Redist` folder inside your game directory. It's called `vcredist_x86.exe`.\nAlternatively you can download it (the x86 version!) from the Microsoft website: <https://www.microsoft.com/en-us/download/details.aspx?id=26347>\n\nRun the installer and follow the instructions to install the VC++ Redistributable 2005.\n\nIf you are still experiencing issues after installing it, please restart your computer. For errors related to d3d9.dll or xinput1_3.dll, please refer to the `!directx` command for more information."
+    },
+    {
+        "commands": [
+            "!redist",
+            "!0xc000007b"
+        ],
+        "title": "Redistributables / Error 0xc000007b",
+        "description": "Please make sure to install both DirectX and VC++ Redistributable 2005.\n<https://www.microsoft.com/en-us/download/details.aspx?id=26347> (make sure to download the x86 version!)\n<https://www.microsoft.com/en-us/download/details.aspx?id=35>\n\nMore instructions are available with the `!dx` and `!vc` commands."
     }
 ]
