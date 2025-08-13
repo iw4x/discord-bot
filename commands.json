@@ -5,7 +5,7 @@
             "!commands"
         ],
         "title": "Available commands",
-        "description": "- `!help`, `!commands` - Show this dialog \n- `!directx`, `!dx` - Installing DirectX\n- `!console` - Opening the console\n- `!install` - Installing IW4x\n- `!docs`, `!documentation` - IW4x documentation\n- `!github`, `!source` - IW4x source code\n- `!username`, `!nickname`, `!name` - How to change your ingame name\n- `!unlockall`, `!unlockstats`, `!unlock` - Unlocking everything in the game\n- `!discord`, `!dc`, `!invite` - Get the invite link for this server \n\nFor more information about IW4x, please visit the official documentation at <https://docs.iw4x.dev/>."
+        "description": "- `!help`, `!commands` - Show this dialog \n- `!directx`, `!dx` - Installing DirectX\n- `!console` - Opening the console\n- `!install` - Installing IW4x\n- `!docs`, `!documentation` - IW4x documentation\n- `!github`, `!source` - IW4x source code\n- `!username`, `!nickname`, `!name` - How to change your ingame name\n- `!unlockall`, `!unlockstats`, `!unlock` - Unlocking everything in the game\n- `!discord`, `!dc`, `!invite` - Get the invite link for this server \n- `!dxvk` - Enabling DXVK for better performance\n- `!performance` - Guide for improving the game's performance\n- `!fps`, `!maxfps`, `!com_maxfps` - Guide on how to set FPS limit\n- `!fov`, `!cg_fov` - Guide on changing your FoV\n\nFor more information about IW4x, please visit the official documentation at <https://docs.iw4x.dev/>."
     },
     {
         "commands": [
@@ -71,5 +71,36 @@
         ],
         "title": "Discord server invites",
         "description": "<https://discord.gg/2ETE8engZM>\nor\n<https://iw4x.dev/discord>"
+    },
+    {
+        "commands": [
+            "!dxvk"
+        ],
+        "title": "DXVK",
+        "description": "DXVK is a translation layer that implements multiple Direct3D versions in Vulkan. These implementations can lead to significant performance increase and reduced choppiness.\nThe IW4x Launcher can automatically install DXVK for you, you just have to enable it in the config file:\n1. Open <game folder>/launcher/config.json with a text editor (notepad)\n2. Set change the `false` after `\"dxvk\":` to true `\"dxvk\": true`\n3. Save the file and run the `iw4x-launcher`\n\nTo uninstall DXVK set the value to `false` and delete `d3d9.dll` from the game folder\n\n[Launcher configuration guide](https://docs.iw4x.dev/guides/launcher-config/)\n[Performance guide](https://docs.iw4x.dev/guides/performance/)"
+    },
+    {
+        "commands": [
+            "!performance"
+        ],
+        "title": "Improving game performance/FPS",
+        "description": "Please refer to the performance guide available at <https://docs.iw4x.dev/guides/performance/>."
+    },
+    {
+        "commands": [
+            "!fps",
+            "!maxfps",
+            "!com_maxfps"
+        ],
+        "title": "Setting an FPS limit",
+        "description": "You can change your maximum FPS in the Settings menu or using the ingame console.\n\nThe command to change the FPS limit is `com_maxfps <value>` where `<value>` is the desired FPS limit. If you want to remove the FPS limit, set the value to `0`. It's recommended not to exceed a limit of 333 FPS as the game's engine starts behaving erratically the higher your FPS.\nSee `!console` or the [console guide](https://docs.iw4x.dev/guides/console/) for more details."
+    },
+    {
+        "commands": [
+            "!fov",
+            "!cg_fov"
+        ],
+        "title": "Changing the Field of View (FoV)",
+        "description": "You can change your FoV using the console command `cg_fov <value>` where `<value>` is the desired FoV. The default value is 65.\n\nSee `!console` or the [console guide](https://docs.iw4x.dev/guides/console/) for more details."
     }
 ]
