@@ -114,7 +114,8 @@
     {
         "commands": [
             "!redist",
-            "!0xc000007b"
+            "!0xc000007b",
+            "!7b"
         ],
         "title": "Redistributables / Error 0xc000007b",
         "description": "Please make sure to install both DirectX and VC++ Redistributable 2005.\n<https://www.microsoft.com/en-us/download/details.aspx?id=26347> (make sure to download the x86 version!)\n<https://www.microsoft.com/en-us/download/details.aspx?id=35>\n\nMore instructions are available with the `!dx` and `!vc` commands."
