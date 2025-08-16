@@ -125,6 +125,6 @@
             "!repair"
         ],
         "title": "Repairing your game files",
-        "description": "If you are experiencing issues with IW4x, you can try repairing your game files.\n\n1. Steam\n  - Right click on Call of Duty: Modern Warfare 2 in your Steam library\n  - Select Properties\n  - Go to the Local Files tab\n  - Click on Verify Integrity of Game Files\n2. IW4x\n  - Open your game folder (Right click game on Steam -> Manage -> Browse local files)\n  - Delete the `cache.json` file from the `launcher` folder\n  - Run the `iw4x-launcher.exe` to verify the IW4x files\n\nIf you are still experiencing issues, please refer to the #support channel."
+        "description": "If you are experiencing issues with IW4x, you can try repairing your game files.\n\n1. Steam\n  - Right click on Call of Duty: Modern Warfare 2 in your Steam library\n  - Select Properties\n  - Go to the Installed Files tab\n  - Click on Verify integrity of game files\n  - Wait for it to finish (its listed under Downloads)\n2. IW4x\n  - Open your game folder (Right click game on Steam -> Manage -> Browse local files)\n  - Delete the `cache.json` file from the `launcher` folder\n  - Run the `iw4x-launcher.exe` to verify the IW4x files\n\nIf you are still experiencing issues, please refer to the <#1382046854753026079> channel."
     }
 ]
