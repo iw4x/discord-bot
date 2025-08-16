@@ -5,7 +5,7 @@
             "!commands"
         ],
         "title": "Available commands",
-        "description": "- `!help`, `!commands` - Show this dialog \n- `!directx`, `!dx` - Installing DirectX\n- `!console` - Opening the console\n- `!install` - Installing IW4x\n- `!docs`, `!documentation` - IW4x documentation\n- `!github`, `!source` - IW4x source code\n- `!username`, `!nickname`, `!name` - How to change your ingame name\n- `!unlockall`, `!unlockstats`, `!unlock` - Unlocking everything in the game\n- `!discord`, `!dc`, `!invite` - Get the invite link for this server \n- `!dxvk` - Enabling DXVK for better performance\n- `!performance` - Guide for improving the game's performance\n- `!fps`, `!maxfps`, `!com_maxfps` - Guide on how to set FPS limit\n- `!fov`, `!cg_fov` - Guide on changing your FoV\n- `!vc`, `!vcredist` - Installing VC++ Redistributables\n- `!redist`, `!0xc000007b`, `!7b` - Installing DirectX and VC++ Redistributables (error 0xc000007b)\n\nFor more information about IW4x, please visit the official documentation at <https://docs.iw4x.dev/>."
+        "description": "- `!help`, `!commands` - Show this dialog \n- `!directx`, `!dx` - Installing DirectX\n- `!console` - Opening the console\n- `!install` - Installing IW4x\n- `!docs`, `!documentation` - IW4x documentation\n- `!github`, `!source` - IW4x source code\n- `!username`, `!nickname`, `!name` - How to change your ingame name\n- `!unlockall`, `!unlockstats`, `!unlock` - Unlocking everything in the game\n- `!discord`, `!dc`, `!invite` - Get the invite link for this server \n- `!dxvk` - Enabling DXVK for better performance\n- `!performance` - Guide for improving the game's performance\n- `!fps`, `!maxfps`, `!com_maxfps` - Guide on how to set FPS limit\n- `!fov`, `!cg_fov` - Guide on changing your FoV\n- `!vc`, `!vcredist` - Installing VC++ Redistributables\n- `!redist`, `!0xc000007b`, `!7b` - Installing DirectX and VC++ Redistributables (error 0xc000007b)\n- `!repair` - How to repair your game files \n\nFor more information about IW4x, please visit the official documentation at <https://docs.iw4x.dev/>."
     },
     {
         "commands": [
@@ -119,5 +119,12 @@
         ],
         "title": "Redistributables / Error 0xc000007b",
         "description": "Please make sure to install both DirectX and VC++ Redistributable 2005.\n<https://www.microsoft.com/en-us/download/details.aspx?id=26347> (make sure to download the x86 version!)\n<https://www.microsoft.com/en-us/download/details.aspx?id=35>\n\nMore instructions are available with the `!dx` and `!vc` commands."
+    },
+    {
+        "commands": [
+            "!repair"
+        ],
+        "title": "Repairing your game files",
+        "description": "If you are experiencing issues with IW4x, you can try repairing your game files.\n\n1. Steam\n  - Right click on Call of Duty: Modern Warfare 2 in your Steam library\n  - Select Properties\n  - Go to the Local Files tab\n  - Click on Verify Integrity of Game Files\n2. IW4x\n  - Open your game folder (Right click game on Steam -> Manage -> Browse local files)\n  - Delete the `cache.json` file from the `launcher` folder\n  - Run the `iw4x-launcher.exe` to verify the IW4x files\n\nIf you are still experiencing issues, please refer to the #support channel."
     }
 ]
