@@ -5,7 +5,26 @@
             "!commands"
         ],
         "title": "Available commands",
-        "description": "- `!help`, `!commands` - Show this dialog \n- `!directx`, `!dx` - Installing DirectX\n- `!console` - Opening the console\n- `!install` - Installing IW4x\n- `!docs`, `!documentation` - IW4x documentation\n- `!github`, `!source` - IW4x source code\n- `!username`, `!nickname`, `!name` - How to change your ingame name\n- `!unlockall`, `!unlockstats`, `!unlock` - Unlocking everything in the game\n- `!discord`, `!dc`, `!invite` - Get the invite link for this server \n- `!dxvk` - Enabling DXVK for better performance\n- `!performance` - Guide for improving the game's performance\n- `!fps`, `!maxfps`, `!com_maxfps` - Guide on how to set FPS limit\n- `!fov`, `!cg_fov` - Guide on changing your FoV\n- `!vc`, `!vcredist` - Installing VC++ Redistributables\n- `!redist`, `!0xc000007b`, `!7b` - Installing DirectX and VC++ Redistributables (error 0xc000007b)\n- `!repair` - How to repair your game files \n\nFor more information about IW4x, please visit the official documentation at <https://docs.iw4x.dev/>."
+        "description": [
+            "- `!help`, `!commands` - Show this dialog",
+            "- `!directx`, `!dx` - Installing DirectX",
+            "- `!console` - Opening the console",
+            "- `!install` - Installing IW4x",
+            "- `!docs`, `!documentation` - IW4x documentation",
+            "- `!github`, `!source` - IW4x source code",
+            "- `!username`, `!nickname`, `!name` - How to change your ingame name",
+            "- `!unlockall`, `!unlockstats`, `!unlock` - Unlocking everything in the game",
+            "- `!discord`, `!dc`, `!invite` - Get the invite link for this server",
+            "- `!dxvk` - Enabling DXVK for better performance",
+            "- `!performance` - Guide for improving the game's performance",
+            "- `!fps`, `!maxfps`, `!com_maxfps` - Guide on how to set FPS limit",
+            "- `!fov`, `!cg_fov` - Guide on changing your FoV",
+            "- `!vc`, `!vcredist` - Installing VC++ Redistributables",
+            "- `!redist`, `!0xc000007b`, `!7b` - Installing DirectX and VC++ Redistributables (error 0xc000007b)",
+            "- `!repair` - How to repair your game files",
+            "",
+            "For more information about IW4x, please visit the official documentation at <https://docs.iw4x.dev/>."
+        ]
     },
     {
         "commands": [
@@ -13,21 +32,39 @@
             "!dx"
         ],
         "title": "Installing DirectX",
-        "description": "Errors related to `d3d9.dll` or `xinput1_3.dll` stem from a missing or broken DirectX installation.\n\n1. Please make sure you haven't downloaded any of these dll files from the internet, if you did **please delete them**.\n2. Download DirectX from Microsoft\n  - <https://www.microsoft.com/en-us/download/details.aspx?id=35>\n3. Run `dxwebsetup.exe` by double clicking it\n4. Follow the installation wizard\n5. Try running the game again, if it's still showing the same error restart your PC.\n"
+        "description": [
+            "Errors related to `d3d9.dll` or `xinput1_3.dll` stem from a missing or broken DirectX installation.",
+            "",
+            "1. Please make sure you haven't downloaded any of these dll files from the internet, if you did **please delete them**.",
+            "2. Download DirectX from Microsoft\n  - <https://www.microsoft.com/en-us/download/details.aspx?id=35>",
+            "3. Run `dxwebsetup.exe` by double clicking it.",
+            "4. Follow the installation wizard.",
+            "5. Try running the game again, if it's still showing the same error restart your PC."
+        ]
     },
     {
         "commands": [
             "!console"
         ],
         "title": "Opening the console",
-        "description": "Depending on your keyboard layout the console is opened using either the **tilde ~**, **grave accent `**  or **caret ^** key. The key should be located right under the **esc** key.\nTo open the full console hold **Shift** while pressing the console button.\n\nFind more details and commands on the IW4x documentation:\n<https://docs.iw4x.dev/guides/console/>"
+        "description": [
+            "Depending on your keyboard layout the console is opened using either the **tilde ~**, **grave accent `**  or **caret ^** key.",
+            "The key should be located right under the **esc** key.",
+            "To open the full console hold **Shift** while pressing the console button.",
+            "",
+            "Find more details and commands on the IW4x documentation:\n<https://docs.iw4x.dev/guides/console/>"
+        ]
     },
     {
         "commands": [
             "!install"
         ],
         "title": "Downloading and installing IW4x",
-        "description": "Please follow the detailed instructions available here:\n- Windows: <https://docs.iw4x.dev/install/launcher/>\n- Linux: <https://docs.iw4x.dev/install/launcher-linux/>"
+        "description": [
+            "Please follow the detailed instructions available here:",
+            "- Windows: <https://docs.iw4x.dev/install/launcher/>",
+            "- Linux: <https://docs.iw4x.dev/install/launcher-linux/>"
+        ]
     },
     {
         "commands": [
@@ -35,7 +72,9 @@
             "!documentation"
         ],
         "title": "IW4x documentation",
-        "description": "The IW4x documentation including various tutorials and information is available at <https://docs.iw4x.dev/>."
+        "description": [
+            "The IW4x documentation including various tutorials and information is available at <https://docs.iw4x.dev/>."
+        ]
     },
     {
         "commands": [
@@ -43,7 +82,9 @@
             "!source"
         ],
         "title": "IW4x GitHub",
-        "description": "The IW4x source code is available on GitHub: <https://github.com/iw4x>"
+        "description": [
+            "The IW4x source code is available on GitHub: <https://github.com/iw4x>"
+        ]
     },
     {
         "commands": [
@@ -52,7 +93,18 @@
             "!name"
         ],
         "title": "Changing your ingame name",
-        "description": "On the main menu, select Barracks and then click your current name in the top right (this may be Unknown Solider).\nYou can move the cursor with the Arrow keys or just start writing to overwrite the existing text.\nPress Enter to confirm your new name.\n\nAlternatively you can change your name using the console with the name command (`name mynewname`). See the [console guide](https://docs.iw4x.dev/guides/console/) (!console) for more details.\n\n<https://docs.iw4x.dev/guides/namechange/>"
+        "description": [
+            "1. On the main menu, select Barracks and then click your current name in the top right (this may be Unknown Solider).",
+            "   - You can move the cursor with the Arrow keys or just start writing to overwrite the existing text.",
+            "2. Press Enter to confirm your new name.",
+            "",
+            "",
+            "Alternatively you can change your name using the console with the name command (`name mynewname`).",
+            "See the [console guide](https://docs.iw4x.dev/guides/console/) (!console) for more details.",
+            "",
+            "",
+            "<https://docs.iw4x.dev/guides/namechange/>"
+        ]
     },
     {
         "commands": [
@@ -61,7 +113,15 @@
             "!unlock"
         ],
         "title": "Unlocking everything in the game",
-        "description": "On the main menu, select Barracks and then “Unlock stats”. You should now be max prestige, rank 70, with everything unlocked.\n\nAlternatively you can use the console command `unlockstats` to achieve the same result.  See the [console guide](https://docs.iw4x.dev/guides/console/) (!console) for more details.\n\n<https://docs.iw4x.dev/guides/unlockstats/>"
+        "description": [
+            "1. On the main menu, select Barracks and then \"Unlock stats\".",
+            "2. You should now be max prestige, rank 70, with everything unlocked.",
+            "",
+            "Alternatively you can use the console command `unlockstats` to achieve the same result.",
+            "See the [console guide](https://docs.iw4x.dev/guides/console/) (!console) for more details.",
+            "",
+            "<https://docs.iw4x.dev/guides/unlockstats/>"
+        ]
     },
     {
         "commands": [
@@ -70,21 +130,40 @@
             "!discord"
         ],
         "title": "Discord server invites",
-        "description": "<https://discord.com/invite/pV2qJscTXf>\nor\n<https://iw4x.dev/discord>"
+        "description": [
+            "<https://discord.com/invite/pV2qJscTXf>\nor\n<https://iw4x.dev/discord>"
+        ]
     },
     {
         "commands": [
             "!dxvk"
         ],
         "title": "DXVK",
-        "description": "DXVK is a translation layer that implements multiple Direct3D versions in Vulkan. These implementations can lead to significant performance increase and reduced choppiness.\nThe IW4x Launcher can automatically install DXVK for you, you just have to enable it in the config file:\n1. Open <game folder>/launcher/config.json with a text editor (notepad)\n2. Set change the `false` after `\"dxvk\":` to true `\"dxvk\": true`\n3. Save the file and run the `iw4x-launcher`\n\nTo uninstall DXVK set the value to `false` and delete `d3d9.dll` from the game folder\n\n[Launcher configuration guide](https://docs.iw4x.dev/guides/launcher-config/)\n[Performance guide](https://docs.iw4x.dev/guides/performance/)"
+        "description": [
+            "DXVK is a translation layer that implements multiple Direct3D versions in Vulkan.",
+            "These implementations can lead to significant performance increase and reduced choppiness.",
+            "The IW4x Launcher can automatically install DXVK for you, you just have to enable it in the config file:",
+            "1. Right click on **Call of Duty: Modern Warfare 2** in your Steam library.",
+            "2. Hover over **Manage**.",
+            "3. Click **Browse local files**.",
+            "4. Open the `config.json` in the `launcher` folder with a text editor like Notepad.",
+            "5. Change the `false` after `\"dxvk\":` to true, like this: `\"dxvk\": true`",
+            "6. Save the file and run `iw4x-launcher.exe`",
+            "",
+            "To uninstall DXVK set the value to `false` and delete `d3d9.dll` from the game folder.",
+            "",
+            "[Launcher configuration guide](https://docs.iw4x.dev/guides/launcher-config/)",
+            "[Performance guide](https://docs.iw4x.dev/guides/performance/)"
+        ]
     },
     {
         "commands": [
             "!performance"
         ],
         "title": "Improving game performance/FPS",
-        "description": "Please refer to the performance guide available at <https://docs.iw4x.dev/guides/performance/>."
+        "description": [
+            "Please refer to the performance guide available at <https://docs.iw4x.dev/guides/performance/>."
+        ]
     },
     {
         "commands": [
@@ -93,7 +172,13 @@
             "!com_maxfps"
         ],
         "title": "Setting an FPS limit",
-        "description": "You can change your maximum FPS in the Settings menu or using the ingame console.\n\nThe command to change the FPS limit is `com_maxfps <value>` where `<value>` is the desired FPS limit. If you want to remove the FPS limit, set the value to `0`. It's recommended not to exceed a limit of 333 FPS as the game's engine starts behaving erratically the higher your FPS.\nSee `!console` or the [console guide](https://docs.iw4x.dev/guides/console/) for more details."
+        "description": [
+            "You can change your maximum FPS in the Settings menu or using the ingame console.",
+            "The command to change the FPS limit is `com_maxfps <value>` where `<value>` is the desired FPS limit.",
+            "   - If you want to remove the FPS limit, set the value to `0`.",
+            "   - It's recommended not to exceed a limit of 333 FPS as the game's engine starts behaving erratically the higher your FPS.",
+            "   - See `!console` or the [console guide](https://docs.iw4x.dev/guides/console/) for more details."
+        ]
     },
     {
         "commands": [
@@ -101,7 +186,10 @@
             "!cg_fov"
         ],
         "title": "Changing the Field of View (FoV)",
-        "description": "You can change your FoV using the console command `cg_fov <value>` where `<value>` is the desired FoV. The default value is 65.\n\nSee `!console` or the [console guide](https://docs.iw4x.dev/guides/console/) for more details."
+        "description": [
+            "You can change your FoV using the console command `cg_fov <value>` where `<value>` is the desired FoV. The default value is 65.",
+            "See `!console` or the [console guide](https://docs.iw4x.dev/guides/console/) for more details."
+        ]
     },
     {
         "commands": [
@@ -109,7 +197,15 @@
             "!vcredist"
         ],
         "title": "Installing VC++ Redistributable 2005",
-        "description": "You can find the VC++ Redistributable 2005 installer in the `Redist` folder inside your game directory. It's called `vcredist_x86.exe`.\nAlternatively you can download it (the x86 version!) from the Microsoft website: <https://www.microsoft.com/en-us/download/details.aspx?id=26347>\n\nRun the installer and follow the instructions to install the VC++ Redistributable 2005.\n\nIf you are still experiencing issues after installing it, please restart your computer. For errors related to d3d9.dll or xinput1_3.dll, please refer to the `!directx` command for more information."
+        "description": [
+            "You can find the VC++ Redistributable 2005 installer in the `Redist` folder inside your game directory. It's called `vcredist_x86.exe`.",
+            "Alternatively you can download it (the x86 version!) from the Microsoft website: <https://www.microsoft.com/en-us/download/details.aspx?id=26347>",
+            "",
+            "Run the installer and follow the instructions to install the VC++ Redistributable 2005.",
+            "",
+            "If you are still experiencing issues after installing it, please restart your computer.",
+            "For errors related to d3d9.dll or xinput1_3.dll, please refer to the `!directx` command for more information."
+        ]
     },
     {
         "commands": [
@@ -118,13 +214,38 @@
             "!7b"
         ],
         "title": "Redistributables / Error 0xc000007b",
-        "description": "Please make sure to install both DirectX and VC++ Redistributable 2005.\n<https://www.microsoft.com/en-us/download/details.aspx?id=26347> (make sure to download the x86 version!)\n<https://www.microsoft.com/en-us/download/details.aspx?id=35>\n\nMore instructions are available with the `!dx` and `!vc` commands."
+        "description": [
+            "Please make sure to install both DirectX and VC++ Redistributable 2005:",
+            "- <https://www.microsoft.com/en-us/download/details.aspx?id=26347>",
+            "   - *Make sure to download the x86 version!*",
+            "- <https://www.microsoft.com/en-us/download/details.aspx?id=35>",
+            "",
+            "More instructions are available with the `!dx` and `!vc` commands."
+        ]
     },
     {
         "commands": [
             "!repair"
         ],
         "title": "Repairing your game files",
-        "description": "If you are experiencing issues with IW4x, you can try repairing your game files.\n\n1. Steam\n  - Right click on Call of Duty: Modern Warfare 2 in your Steam library\n  - Select Properties\n  - Go to the Installed Files tab\n  - Click on Verify integrity of game files\n  - Wait for it to finish (its listed under Downloads)\n2. IW4x\n  - Open your game folder (Right click game on Steam -> Manage -> Browse local files)\n  - Delete the `cache.json` file from the `launcher` folder\n  - Run the `iw4x-launcher.exe` to verify the IW4x files\n\nIf you are still experiencing issues, please refer to the <#1382046854753026079> channel."
+        "description": [
+            "If you are experiencing issues with IW4x, you can try repairing your game files.",
+            "",
+            "1. Steam:",
+            "   - Right click on **Call of Duty: Modern Warfare 2** in your Steam library.",
+            "   - Select **Properties**.",
+            "   - Go to the **Installed Files** tab.",
+            "   - Click on **Verify integrity of game files**.",
+            "   - Wait for it to finish (its listed under Downloads).",
+            "",
+            "2. IW4x:",
+            "   - Right click on **Call of Duty: Modern Warfare 2** in your Steam library.",
+            "   - Hover over **Manage**.",
+            "   - Click **Browse local files**.",
+            "   - Delete the `cache.json` file from the `launcher` folder.",
+            "   - Run `iw4x-launcher.exe` to verify the IW4x files.",
+            "",
+            "If you are still experiencing issues, please refer to the <#1382046854753026079> channel."
+        ]
     }
 ]

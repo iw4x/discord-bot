@@ -134,9 +134,11 @@ client.on(Events.MessageCreate, async message => {
         userRecord.count++;
         userRecord.lastCommandTimestamp = now;
 
+        commandMessage = commandData.description.map(s => s ? s + "\n" : "\n").join("");
+
         const embed = new EmbedBuilder()
             .setTitle(commandData.title)
-            .setDescription(commandData.description)
+            .setDescription(commandMessage)
             .setColor(0x40aa50)
             .setTimestamp();
 
