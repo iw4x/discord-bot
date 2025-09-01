@@ -21,7 +21,7 @@
             "- `!fov`, `!cg_fov` - Guide on changing your FoV",
             "- `!vc`, `!vcredist` - Installing VC++ Redistributables",
             "- `!redist`, `!0xc000007b`, `!7b` - Installing DirectX and VC++ Redistributables (error 0xc000007b)",
-            "- `!repair` - How to repair your game files",
+            "- `!repair`, `!verify` - How to repair your game files",
             "",
             "For more information about IW4x, please visit the official documentation at <https://docs.iw4x.dev/>."
         ]
@@ -225,7 +225,8 @@
     },
     {
         "commands": [
-            "!repair"
+            "!repair",
+            "!verify"
         ],
         "title": "Repairing your game files",
         "description": [
@@ -248,4 +249,5 @@
             "If you are still experiencing issues, please refer to the <#1382046854753026079> channel."
         ]
     }
+
 ]
