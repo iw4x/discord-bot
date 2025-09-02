@@ -22,6 +22,7 @@
             "- `!vc`, `!vcredist` - Installing VC++ Redistributables",
             "- `!redist`, `!0xc000007b`, `!7b` - Installing DirectX and VC++ Redistributables (error 0xc000007b)",
             "- `!repair`, `!verify` - How to repair your game files",
+            "- `!dedicated`, `!server` - How to setup a dedicated server",
             "",
             "For more information about IW4x, please visit the official documentation at <https://docs.iw4x.dev/>."
         ]
@@ -248,6 +249,15 @@
             "",
             "If you are still experiencing issues, please refer to the <#1382046854753026079> channel."
         ]
+    },
+    {
+        "commands": [
+            "!dedicated",
+            "!server"
+        ],
+        "title": "Setting up a dedicated server",
+        "description": [
+            "Please follow the detailed instructions available at <https://docs.iw4x.dev/servers/dedicated-server/>"
+        ]
     }
-
 ]
